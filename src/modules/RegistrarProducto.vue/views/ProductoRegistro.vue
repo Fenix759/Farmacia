@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent class="flex flex-col items-center justify-center">
+  <form @submit.prevent class="flex flex-col items-center justify-cente bg-blue-100 p-15 radius rounded-2xl shadow-lg">
     <ProductoInput
       NombreProducto="Nombre de Producto"
       Placeholder="Nombre"

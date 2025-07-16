@@ -57,7 +57,7 @@ import { RouterLink } from 'vue-router'
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex shrink-0 items-center">
             <img
-              class="h-8 w-auto"
+              class="h-10 w-auto"
               src="../../assets/img/pastillas.png"
               alt="Your Company"
             />
@@ -68,17 +68,17 @@ import { RouterLink } from 'vue-router'
 
               <RouterLink
                 to="/"
-                class="rounded-md px-3 py-2 text-sm font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
                 >Home</RouterLink
               >
               <RouterLink
                 to="/RegistrarProductos"
-                class="rounded-md px-3 py-2 text-sm font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
                 >Registrar</RouterLink
               >
               <RouterLink
                 to="/ListarProductos"
-                class="rounded-md px-3 py-2 text-sm font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
                 >Listar</RouterLink
               >
             </div>

@@ -9,20 +9,19 @@
   :class="{ 'border border-blue-200': index % 2 === 0 }"
 >
   <div>
-    <strong class="text-blue-800">{{ Farmacia.Nombre }}</strong>
-    <span class="text-gray-600"> - {{ Farmacia.Precio }}</span>
-    <span class="text-green-600"> - {{ Farmacia.Cantidad }}</span>
+    <strong class="text-blue-800 text-2xl pb-25">{{ Farmacia.Nombre }}</strong> <br>
+    <span class="text-gray-600 font-semibold">{{ Farmacia.Precio }}</span><br>
+    <span class="text-green-600"> {{ Farmacia.Cantidad }}</span>
+  </div>
+</li>
+    </ul>
   </div>
     <button
     @click="borrarUno(index)"
-    class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition-colors"
+    class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition-colors ml-15 "
   >
     Eliminar
   </button>
-</li>
-
-    </ul>
-  </div>
 </template>
 
 

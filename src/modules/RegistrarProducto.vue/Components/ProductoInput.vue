@@ -1,12 +1,12 @@
 <template>
   <!-- From Uiverse.io by seyed-mohsen-mousavi -->
   <div class="relative mb-4">
-    <label :for="NombreProducto" class="block text-gray-800 font-bold text-sm ml-4 mb-2">{{
+    <label :for="NombreProducto" class="block text-gray-800 font-bold ml-4 mb-2 ">{{
       NombreProducto
     }}</label>
     <input
       :placeholder="props.Placeholder"
-      class="input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-100 transition-all focus:w-115 focus:border-gray-500 outline-none"
+      class="input shadow-lg focus:border-2 bg-white border-gray-300 px-5 py-3 rounded-xl w-100 transition-all focus:w-115 focus:border-gray-500 focus:bg-white outline-none"
       :name="InputName"
       :type="TipoInput"
       :id="NombreProducto"
