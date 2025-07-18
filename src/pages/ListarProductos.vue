@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-2xl mx-auto p-5 mt-15">
+    <div class="   mt-15">
         <ListarProductos/>
     </div>
     

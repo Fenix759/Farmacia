@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <nav class="bg-gray-800">
+  <nav class="bg-gradient-to-l from-indigo-800  to-gray-900">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -68,17 +68,17 @@ import { RouterLink } from 'vue-router'
 
               <RouterLink
                 to="/"
-                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg bg-indigo-900 font-semibold text-gray-300 hover:bg-blue-950 hover:text-white transition-all duration-300 ease-in-out"
                 >Home</RouterLink
               >
               <RouterLink
                 to="/RegistrarProductos"
-                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-blue-950 hover:text-white"
                 >Registrar</RouterLink
               >
               <RouterLink
                 to="/ListarProductos"
-                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-gray-700 hover:text-white"
+                class="rounded-md px-3 py-2 text-lg font-semibold text-gray-300 hover:bg-blue-950 hover:text-white"
                 >Listar</RouterLink
               >
             </div>
